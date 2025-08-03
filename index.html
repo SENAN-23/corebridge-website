@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>COREBRIDGE PARTNERS | 人と物の架け橋</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #0F4C81;
+      --accent-color: #1F75BC;
+      --light-bg: #f5f7fa;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #333;
+      background-color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header img {
+      max-width: 120px;
+      margin-bottom: 20px;
+    }
+
+    nav {
+      background-color: var(--primary-color);
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 15px 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: opacity 0.3s;
+    }
+
+    nav a:hover {
+      opacity: 0.8;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: var(--primary-color);
+      font-size: 2em;
+      margin-bottom: 20px;
+      border-left: 6px solid var(--primary-color);
+      padding-left: 15px;
+    }
+
+    section p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+
+    .highlight {
+      background-color: var(--light-bg);
+      padding: 40px 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    .contact-form {
+      background-color: var(--light-bg);
+      padding: 30px;
+      border-radius: 8px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: var(--accent-color);
+    }
+
+    footer {
+      background-color: var(--primary-color);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+
+    @media screen and (max-width: 768px) {
+      nav {
+        flex-direction: column;
+      }
+
+      nav a {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="COREBRIDGE PARTNERS ロゴ">
+  <h1>COREBRIDGE PARTNERS合同会社</h1>
+  <p>人と物を繋ぐ架け橋。信頼されるクライアントパートナーへ。</p>
+</header>
+
+<nav>
+  <a href="#home">ホーム</a>
+  <a href="#trade">貿易事業</a>
+  <a href="#hr">外国人材紹介</a>
+  <a href="#contact">お問い合わせ</a>
+</nav>
+
+<section id="home">
+  <h2>私たちについて</h2>
+  <div class="highlight">
+    <p>
+      COREBRIDGE PARTNERSは、日本を拠点にアジア各国を繋ぐ「人」と「物」のパートナーです。<br>
+      三国間貿易のプロフェッショナルとして、また外国人材支援のエキスパートとして、クライアントと信頼関係を築き、共に成長する未来を目指します。
+    </p>
+  </div>
+</section>
+
+<section id="trade">
+  <h2>貿易事業</h2>
+  <p>
+    中国・バングラデシュ・日本を中心とした三国間貿易を展開。鉄鋼製品・資源・生活用品など、多様な製品の国際輸出入をサポートし、柔軟かつ効率的な物流と価格提案を提供しています。
+  </p>
+</section>
+
+<section id="hr">
+  <h2>外国人材紹介事業</h2>
+  <p>
+    バングラデシュから日本への外国人材紹介に特化。SSW（特定技能）、TITP（技能実習）、学生・ワーキングビザなど、企業ニーズに最適な人材をマッチングし、入国後の生活サポート・定着支援まで一貫対応します。
+  </p>
+</section>
+
+<section id="contact">
+  <h2>お問い合わせ</h2>
+  <form class="contact-form">
+    <input type="text" name="name" placeholder="お名前" required>
+    <input type="email" name="email" placeholder="メールアドレス" required>
+    <textarea name="message" rows="5" placeholder="お問い合わせ内容を入力してください" required></textarea>
+    <button type="submit">送信</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 COREBRIDGE PARTNERS LLC. All rights reserved.
+</footer>
+
+</body>
+</html>
